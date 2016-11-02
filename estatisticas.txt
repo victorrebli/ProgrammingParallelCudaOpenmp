@@ -1,0 +1,340 @@
+TILE = 64
+N = 512
+
+1 Vez) 1 vez
+
+CUDA:
+Number of Threads Per Block: 4096
+Effective Bandwidth (GB/s): 124.121208
+Performance= 124.12 GFlop/s, Time= 0.004 msec, Size= 524288 Ops
+
+Effective Bandwidth (GB/s): 124.121208
+Performance= 124.12 GFlop/s, Time= 0.004 msec, Size= 524288 Ops
+
+Number of Threads Per Block: 4096
+Effective Bandwidth (GB/s): 125.068712
+Performance= 125.07 GFlop/s, Time= 0.004 msec, Size= 524288 Ops
+---------------------------------------------------------------------
+SEQUENCIAL:
+Execution time: 2.000000
+Effective Bandwidth (GB/s): 0.262144
+Performance= 0.26 GFlop/s, Time= 2.000 msec, Size= 524288 Ops
+
+Execution time: 1.000000
+Effective Bandwidth (GB/s): 0.524288
+Performance= 0.52 GFlop/s, Time= 1.000 msec, Size= 524288 Ops
+
+
+Execution time: 1.000000
+Effective Bandwidth (GB/s): 0.524288
+Performance= 0.52 GFlop/s, Time= 1.000 msec, Size= 524288 Ops
+
+---------------------------------------------------------------------
+
+OPENMP
+
+Execution time: 0.000000
+Effective Bandwidth (GB/s): inf
+Performance= inf GFlop/s, Time= 0.000 msec, Size= 524288 Ops
+
+Execution time: 0.000000
+Effective Bandwidth (GB/s): inf
+Performance= inf GFlop/s, Time= 0.000 msec, Size= 524288 Ops
+
+Execution time: 0.000000
+Effective Bandwidth (GB/s): inf
+Performance= inf GFlop/s, Time= 0.000 msec, Size= 524288 Ops
+
+--------------------------------------------------------------------------
+
+2 Vez) 100 vezes
+
+CUDA:
+Number of Blocks Created:81
+Number of Threads Per Block: 4096
+Effective Bandwidth (GB/s): 125.068712
+Performance= 125.07 GFlop/s, Time= 0.004 msec, Size= 524288 Ops
+vrebli@car05:~/trabalho$ ./ladrilhada
+
+Number of Blocks Created:81
+Number of Threads Per Block: 4096
+Effective Bandwidth (GB/s): 124.121208
+Performance= 124.12 GFlop/s, Time= 0.004 msec, Size= 524288 Ops
+vrebli@car05:~/trabalho$ ./ladrilhada
+
+Number of Blocks Created:81
+Number of Threads Per Block: 4096
+Effective Bandwidth (GB/s): 11.221917
+Performance= 11.22 GFlop/s, Time= 0.047 msec, Size= 524288 Ops
+
+-----------------------------------------------------------------------------------------------
+
+SEQUENCIAL:
+
+Execution time: 146.000000
+Effective Bandwidth (GB/s): 0.003591
+Performance= 0.00 GFlop/s, Time= 146.000 msec, Size= 524288 Ops
+
+Execution time: 147.000000
+Effective Bandwidth (GB/s): 0.003567
+Performance= 0.00 GFlop/s, Time= 147.000 msec, Size= 524288 Ops
+
+Execution time: 147.000000
+Effective Bandwidth (GB/s): 0.003567
+Performance= 0.00 GFlop/s, Time= 147.000 msec, Size= 524288 Ops
+
+---------------------------------------------------------------------------
+OPENMP:
+
+Execution time: 15.000000
+Effective Bandwidth (GB/s): 0.034953
+Performance= 0.03 GFlop/s, Time= 15.000 msec, Size= 524288 Ops
+
+Execution time: 15.000000
+Effective Bandwidth (GB/s): 0.034953
+Performance= 0.03 GFlop/s, Time= 15.000 msec, Size= 524288 Ops
+
+Execution time: 15.000000
+Effective Bandwidth (GB/s): 0.034953
+Performance= 0.03 GFlop/s, Time= 15.000 msec, Size= 524288 Ops
+
+-----------------------------------------------------------------------------
+
+3 Vez) 1000 vezes
+
+CUDA:
+
+Number of Blocks Created:81
+Number of Threads Per Block: 4096
+Effective Bandwidth (GB/s): 0.252279
+Performance= 0.25 GFlop/s, Time= 2.078 msec, Size= 524288 Ops
+vrebli@car05:~/trabalho$ ./ladrilhada
+
+Number of Blocks Created:81
+Number of Threads Per Block: 4096
+Effective Bandwidth (GB/s): 0.358653
+Performance= 0.36 GFlop/s, Time= 1.462 msec, Size= 524288 Ops
+vrebli@car05:~/trabalho$ ./ladrilhada
+
+Number of Blocks Created:81
+Number of Threads Per Block: 4096
+Effective Bandwidth (GB/s): 0.446163
+Performance= 0.45 GFlop/s, Time= 1.175 msec, Size= 524288 Ops
+
+-----------------------------------------------------------------------------
+
+SEQUENCIAL:
+
+Execution time: 1463.000000
+Effective Bandwidth (GB/s): 0.000358
+Performance= 0.00 GFlop/s, Time= 1463.000 msec, Size= 524288 Ops
+
+Execution time: 1467.000000
+Effective Bandwidth (GB/s): 0.000357
+Performance= 0.00 GFlop/s, Time= 1467.000 msec, Size= 524288 Ops
+
+Execution time: 1462.000000
+Effective Bandwidth (GB/s): 0.000359
+Performance= 0.00 GFlop/s, Time= 1462.000 msec, Size= 524288 Ops
+
+-------------------------------------------------------------------------------
+
+OPENMP:
+
+Execution time: 148.000000
+Effective Bandwidth (GB/s): 0.003542
+Performance= 0.00 GFlop/s, Time= 148.000 msec, Size= 524288 Ops
+
+Execution time: 149.000000
+Effective Bandwidth (GB/s): 0.003519
+Performance= 0.00 GFlop/s, Time= 149.000 msec, Size= 524288 Ops
+
+Execution time: 146.000000
+Effective Bandwidth (GB/s): 0.003591
+Performance= 0.00 GFlop/s, Time= 146.000 msec, Size= 524288 Ops
+
+---------------------------------------------------------------------------------------------
+
+TILE = 64
+N = 1024
+
+CUDA
+
+1) 1 vez
+
+Number of Blocks Created:1089
+Number of Threads Per Block: 1024
+Effective Bandwidth (GB/s): 0.150395
+Performance= 0.15 GFlop/s, Time= 13.944 msec, Size= 2097152 Ops
+vrebli@car05:~/trabalho$ ./ladrilhada
+
+Number of Blocks Created:1089
+Number of Threads Per Block: 1024
+Effective Bandwidth (GB/s): 0.150444
+Performance= 0.15 GFlop/s, Time= 13.940 msec, Size= 2097152 Ops
+vrebli@car05:~/trabalho$ ./ladrilhada
+
+Number of Blocks Created:1089
+Number of Threads Per Block: 1024
+Effective Bandwidth (GB/s): 0.150534
+Performance= 0.15 GFlop/s, Time= 13.931 msec, Size= 2097152 Ops
+
+-----------------------------------------------------------------------
+
+SEQUENCIAL:
+
+Execution time: 13.000000
+Effective Bandwidth (GB/s): 0.161319
+Performance= 0.16 GFlop/s
+Time = 13.000 msec
+
+Execution time: 13.000000
+Effective Bandwidth (GB/s): 0.161319
+Performance= 0.16 GFlop/s
+Time = 13.000 msec
+
+Execution time: 12.000000
+Effective Bandwidth (GB/s): 0.174763
+Performance= 0.17 GFlop/s
+Time = 12.000 msec
+
+-------------------------------------------------------------------------
+
+OPENMP:
+
+Execution time: 1.000000
+Effective Bandwidth (GB/s): 2.097152
+Performance= 2.10 GFlop/s
+Time = 1.000 msec
+
+Execution time: 1.000000
+Effective Bandwidth (GB/s): 2.097152
+Performance= 2.10 GFlop/s
+Time = 1.000 msec
+
+Execution time: 2.000000
+Effective Bandwidth (GB/s): 1.048576
+Performance= 1.05 GFlop/s
+Time = 2.000 msec
+---------------------------------------------------------------------------------------
+
+2) 100 vezes
+
+Number of Blocks Created:1089
+
+ Number of Threads Per Block: 1024
+Effective Bandwidth (GB/s): 0.001738
+Performance= 0.00 GFlop/s, Time= 1206.904 msec, Size= 2097152 Ops
+vrebli@car05:~/trabalho$ ./ladrilhada
+
+ Number of Blocks Created:1089
+
+ Number of Threads Per Block: 1024
+Effective Bandwidth (GB/s): 0.001786
+Performance= 0.00 GFlop/s, Time= 1174.115 msec, Size= 2097152 Ops
+vrebli@car05:~/trabalho$ ./ladrilhada
+
+ Number of Blocks Created:1089
+
+ Number of Threads Per Block: 1024
+Effective Bandwidth (GB/s): 0.001786
+Performance= 0.00 GFlop/s, Time= 1174.289 msec, Size= 2097152 Ops
+--------------------------------------------------------------------------
+
+SEQUENCIAL:
+
+Execution time: 1200.000000
+Effective Bandwidth (GB/s): 0.001748
+Performance= 0.00 GFlop/s, Time= 1200.000 msec, Size= 2097152 Ops
+
+
+Execution time: 1200.000000
+Effective Bandwidth (GB/s): 0.001748
+Performance= 0.00 GFlop/s, Time= 1200.000 msec, Size= 2097152 Ops
+
+Execution time: 1200.000000
+Effective Bandwidth (GB/s): 0.001748
+Performance= 0.00 GFlop/s, Time= 1200.000 msec, Size= 2097152 Ops
+
+--------------------------------------------------------------------------------
+
+OPENMP:
+
+Execution time: 118.000000
+Effective Bandwidth (GB/s): 0.017772
+Performance= 0.02 GFlop/s, Time= 118.000 msec, Size= 2097152 Ops
+
+Execution time: 117.000000
+Effective Bandwidth (GB/s): 0.017924
+Performance= 0.02 GFlop/s, Time= 117.000 msec, Size= 2097152 Ops
+
+Execution time: 118.000000
+Effective Bandwidth (GB/s): 0.017772
+Performance= 0.02 GFlop/s, Time= 118.000 msec, Size= 2097152 Ops
+
+-----------------------------------------------------------------------------
+
+
+3) 1000 vezes
+
+Number of Blocks Created:1089
+Number of Threads Per Block: 1024
+Effective Bandwidth (GB/s): 0.000178
+Performance= 0.00 GFlop/s, Time= 11780.455 msec, Size= 2097152 Ops
+vrebli@car05:~/trabalho$ ./ladrilhada
+
+Number of Blocks Created:1089
+Number of Threads Per Block: 1024
+Effective Bandwidth (GB/s): 0.000178
+Performance= 0.00 GFlop/s, Time= 11772.964 msec, Size= 2097152 Ops
+vrebli@car05:~/trabalho$ ./ladrilhada
+
+Number of Blocks Created:1089
+Number of Threads Per Block: 1024
+Effective Bandwidth (GB/s): 0.000179
+Performance= 0.00 GFlop/s, Time= 11739.615 msec, Size= 2097152 Ops
+
+-------------------------------------------------------------------------------------
+
+SEQUENCIAL:
+
+Execution time: 11993.000000
+Effective Bandwidth (GB/s): 0.000175
+Performance= 0.00 GFlop/s, Time= 11993.000 msec, Size= 2097152 Ops
+
+Execution time: 11995.000000
+Effective Bandwidth (GB/s): 0.000175
+Performance= 0.00 GFlop/s
+Time = 11995.000 msec
+
+execution time: 11994.000000
+Effective Bandwidth (GB/s): 0.000175
+Performance= 0.00 GFlop/s
+Time = 11994.000 msec
+
+-----------------------------------------------------------------------------------------
+OPENMP:
+
+Execution time: 1176.000000
+Effective Bandwidth (GB/s): 0.001783
+Performance= 0.00 GFlop/s, Time= 1176.000 msec, Size= 2097152 Ops
+
+Execution time: 1175.000000
+Effective Bandwidth (GB/s): 0.001785
+Performance= 0.00 GFlop/s, Time= 1175.000 msec, Size= 2097152 Ops
+
+Execution time: 1179.000000
+Effective Bandwidth (GB/s): 0.001779
+Performance= 0.00 GFlop/s
+Time = 1179.000 msec
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,208 @@
+TILE = 32
+N = 1024
+
+1 Vez) 1 vez
+
+Number of Threads Per Block: 1024
+Effective Bandwidth (GB/s): 0.061683
+Performance= 0.06 GFlop/s, Time= 33.999 msec, Size= 2097152 Ops
+vrebli@car05:~/trabalho$ ./ladrilhada_double
+
+Number of Blocks Created:1089
+Number of Threads Per Block: 1024
+Effective Bandwidth (GB/s): 0.061550
+Performance= 0.06 GFlop/s, Time= 34.072 msec, Size= 2097152 Ops
+vrebli@car05:~/trabalho$ ./ladrilhada_double
+
+Number of Blocks Created:1089
+Number of Threads Per Block: 1024
+Effective Bandwidth (GB/s): 0.061654
+Performance= 0.06 GFlop/s, Time= 34.015 msec, Size= 2097152 Ops
+
+
+
+SEQUENCIAL:
+
+Execution time: 12.000000
+Effective Bandwidth (GB/s): 0.174763
+Performance= 0.17 GFlop/s
+Time = 12.000 msec
+
+Execution time: 12.000000
+Effective Bandwidth (GB/s): 0.174763
+Performance= 0.17 GFlop/s
+Time = 12.000 msec
+
+Execution time: 13.000000
+Effective Bandwidth (GB/s): 0.161319
+Performance= 0.16 GFlop/s
+Time = 13.000 msec
+
+OPENMP:
+
+Execution time: 2.000000
+Effective Bandwidth (GB/s): 1.048576
+Performance= 1.05 GFlop/s
+Time = 2.000 msec
+
+Execution time: 2.000000
+Effective Bandwidth (GB/s): 1.048576
+Performance= 1.05 GFlop/s
+Time = 2.000 msec
+
+Execution time: 1.000000
+Effective Bandwidth (GB/s): 2.097152
+Performance= 2.10 GFlop/s
+Time = 1.000 msec
+
+--------------------------------------------------------------------------------------------
+
+2 Vez) 100 Vezes
+
+Number of Blocks Created:1089
+Number of Threads Per Block: 1024
+Effective Bandwidth (GB/s): 0.000721
+Performance= 0.00 GFlop/s, Time= 2907.323 msec, Size= 2097152 Ops
+vrebli@car05:~/trabalho$ ./ladrilhada_double
+
+Number of Blocks Created:1089
+Number of Threads Per Block: 1024
+Effective Bandwidth (GB/s): 0.000734
+Performance= 0.00 GFlop/s, Time= 2858.560 msec, Size= 2097152 Ops
+vrebli@car05:~/trabalho$ ./ladrilhada_double
+
+Number of Blocks Created:1089
+Number of Threads Per Block: 1024
+Effective Bandwidth (GB/s): 0.000734
+Performance= 0.00 GFlop/s, Time= 2858.476 msec, Size= 2097152 Ops
+
+
+SEQUENCIAL:
+
+Execution time: 1232.000000
+Effective Bandwidth (GB/s): 0.001702
+Performance= 0.00 GFlop/s
+Time = 1232.000 msec
+
+
+Execution time: 1232.000000
+Effective Bandwidth (GB/s): 0.001702
+Performance= 0.00 GFlop/s
+Time = 1232.000 msec
+
+Execution time: 1230.000000
+Effective Bandwidth (GB/s): 0.001705
+Performance= 0.00 GFlop/s
+Time = 1230.000 msec
+
+
+OPENMP:
+
+Execution time: 124.000000
+Effective Bandwidth (GB/s): 0.016913
+Performance= 0.02 GFlop/s
+Time = 124.000 msec
+
+
+Execution time: 123.000000
+Effective Bandwidth (GB/s): 0.017050
+Performance= 0.02 GFlop/s
+Time = 123.000 msec
+
+
+Execution time: 122.000000
+Effective Bandwidth (GB/s): 0.017190
+Performance= 0.02 GFlop/s
+Time = 122.000 msec
+
+
+--------------------------------------------------------------------------------------
+
+3 Vez) 1000 Vezes
+
+
+Number of Blocks Created:1089
+Number of Threads Per Block: 1024
+Effective Bandwidth (GB/s): 0.000073
+Performance= 0.00 GFlop/s, Time= 28621.352 msec, Size= 2097152 Ops
+
+
+Number of Blocks Created:1089
+Number of Threads Per Block: 1024
+Effective Bandwidth (GB/s): 0.000073
+Performance= 0.00 GFlop/s, Time= 28919.006 msec, Size= 2097152 Ops
+
+
+Number of Blocks Created:1089
+Number of Threads Per Block: 1024
+Effective Bandwidth (GB/s): 0.000072
+Performance= 0.00 GFlop/s, Time= 29274.178 msec, Size= 2097152 Ops
+
+
+
+SEQUENCIAL: 
+
+Execution time: 12303.000000
+Effective Bandwidth (GB/s): 0.000170
+Performance= 0.00 GFlop/s
+Time = 12303.000 msec
+
+Execution time: 12303.000000
+Effective Bandwidth (GB/s): 0.000170
+Performance= 0.00 GFlop/s
+Time = 12303.000 msec
+
+Execution time: 12203.000000
+Effective Bandwidth (GB/s): 0.000170
+Performance= 0.00 GFlop/s
+Time = 12203.000 msec
+
+OPENMP:
+
+Execution time: 1233.000000
+Effective Bandwidth (GB/s): 0.001702
+Performance= 0.00 GFlop/s
+Time = 1233.000 msec
+
+Execution time: 1232.000000
+Effective Bandwidth (GB/s): 0.001702
+Performance= 0.00 GFlop/s
+Time = 1232.000 msec
+
+Execution time: 1232.000000
+Effective Bandwidth (GB/s): 0.001702
+Performance= 0.00 GFlop/s
+Time = 1232.000 msec
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
